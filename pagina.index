@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Currículo</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Identificação</legend>
+      Nome Completo: <input type="text" name="nome"><br>
+      Nacionalidade:<br>
+      <input type="radio" name="nacionalidade" value="brasileira"> Brasileira<br>
+      <input type="radio" name="nacionalidade" value="estrangeira"> Estrangeira<br>
+      CPF: <input type="text" name="cpf"><br>
+      Número do Passaporte: <input type="text" name="passaporte">
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados de Nascimento</legend>
+      Data: <input type="date" name="data_nascimento"><br>
+      País:
+      <select name="pais_nascimento">
+        <option>Brasil</option>
+        <option>Argentina</option>
+        <option>Outros</option>
+      </select><br>
+      UF:
+      <select name="uf_nascimento">
+        <option>PR</option>
+        <option>SP</option>
+        <option>RJ</option>
+      </select><br>
+      Cidade: <input type="text" name="cidade_nascimento">
+    </fieldset>
+
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="sexo" value="feminino"> Feminino<br>
+      <input type="radio" name="sexo" value="masculino"> Masculino
+    </fieldset>
+
+    <fieldset>
+      <legend>Identidade</legend>
+      Número: <input type="text" name="identidade_numero"><br>
+      Órgão Emissor: <input type="text" name="orgao_emissor"><br>
+      UF:
+      <select name="uf_identidade">
+        <option>PR</option>
+        <option>SP</option>
+        <option>RJ</option>
+      </select><br>
+      Data: <input type="date" name="data_identidade">
+    </fieldset>
+
+    <fieldset>
+      <legend>Filiação</legend>
+      Nome do Pai: <input type="text" name="pai"><br>
+      Nome da Mãe: <input type="text" name="mae">
+    </fieldset>
+
+    <fieldset>
+      <legend>Endereço Profissional</legend>
+      Instituição/Empresa: <input type="text" name="empresa_prof"><br>
+      Logradouro:
+      <select name="logradouro_prof">
+        <option>Avenida</option>
+        <option>Rua</option>
+        <option>Praça</option>
+        <option>Travessa</option>
+        <option>Alameda</option>
+        <option>Beco</option>
+        <option>Passagem</option>
+        <option>Estrada</option>
+      </select><br>
+      Endereço: <input type="text" name="endereco_prof"><br>
+      País:
+      <select name="pais_prof">
+        <option>Brasil</option>
+        <option>Argentina</option>
+        <option>Outros</option>
+      </select><br>
+      UF:
+      <select name="uf_prof">
+        <option>PR</option>
+        <option>SP</option>
+        <option>RJ</option>
+      </select><br>
+      CEP: <input type="text" name="cep_prof"><br>
+      Cidade: <input type="text" name="cidade_prof"><br>
+      Bairro: <input type="text" name="bairro_prof"><br>
+      Caixa Postal: <input type="text" name="caixa_postal_prof"><br>
+      DDD: <input type="text" name="ddd_prof"><br>
+      Telefone: <input type="text" name="tel_prof"><br>
+      Ramal: <input type="text" name="ramal_prof"><br>
+      Fax: <input type="text" name="fax_prof"><br>
+      E-mail: <input type="email" name="email_prof"><br>
+      Homepage Institucional: <input type="url" name="homepage_prof">
+    </fieldset>
+
+    <fieldset>
+      <legend>Endereço Residencial</legend>
+      Logradouro:
+      <select name="logradouro_res">
+        <option>Avenida</option>
+        <option>Rua</option>
+        <option>Praça</option>
+        <option>Travessa</option>
+        <option>Alameda</option>
+        <option>Beco</option>
+        <option>Passagem</option>
+        <option>Estrada</option>
+      </select><br>
+      País:
+    <select name="pais">
+  <option value="">Selecione um país</option>
+  <option>Afeganistão</option>
+  <option>África do Sul</option>
+  <option>Albânia</option>
+  <option>Alemanha</option>
+  <option>Andorra</option>
+  <option>Angola</option>
+  <option>Antígua e Barbuda</option>
+  <option>Arábia Saudita</option>
+  <option>Argélia</option>
+  <option>Argentina</option>
+  <option>Armênia</option>
+  <option>Austrália</option>
+  <option>Áustria</option>
+  <option>Azerbaijão</option>
+  <option>Bahamas</option>
+  <option>Bangladesh</option>
+  <option>Barbados</option>
+  <option>Bahrein</option>
+  <option>Bélgica</option>
+  <option>Belize</option>
+  <option>Benin</option>
+  <option>Bielorrússia</option>
+  <option>Bolívia</option>
+  <option>Bósnia e Herzegovina</option>
+  <option>Botsuana</option>
+  <option>Brasil</option>
+  <option>Brunei</option>
+  <option>Bulgária</option>
+  <option>Burquina Faso</option>
+  <option>Burundi</option>
+  <option>Butão</option>
+  <option>Cabo Verde</option>
+  <option>Camarões</option>
+  <option>Camboja</option>
+  <option>Canadá</option>
+  <option>Catar</option>
+  <option>Cazaquistão</option>
+  <option>Chade</option>
+  <option>Chile</option>
+  <option>China</option>
+  <option>Chipre</option>
+  <option>Colômbia</option>
+  <option>Comores</option>
+  <option>Coreia do Norte</option>
+  <option>Coreia do Sul</option>
+  <option>Costa do Marfim</option>
+  <option>Costa Rica</option>
+  <option>Croácia</option>
+  <option>Cuba</option>
+  <option>Dinamarca</option>
+  <option>Djibuti</option>
+  <option>Dominica</option>
+  <option>Egito</option>
+  <option>El Salvador</option>
+  <option>Emirados Árabes Unidos</option>
+  <option>Equador</option>
+  <option>Eritreia</option>
+  <option>Eslováquia</option>
+  <option>Eslovênia</option>
+  <option>Espanha</option>
+  <option>Estados Unidos</option>
+  <option>Estônia</option>
+  <option>Eswatini</option>
+  <option>Etiópia</option>
+  <option>Fiji</option>
+  <option>Filipinas</option>
+  <option>Finlândia</option>
+  <option>França</option>
+  <option>Gabão</option>
+  <option>Gâmbia</option>
+  <option>Gana</option>
+  <option>Geórgia</option>
+  <option>Granada</option>
+  <option>Grécia</option>
+  <option>Guatemala</option>
+  <option>Guiana</option>
+  <option>Guiné</option>
+  <option>Guiné-Bissau</option>
+  <option>Guiné Equatorial</option>
+  <option>Haiti</option>
+  <option>Holanda</option>
+  <option>Honduras</option>
+  <option>Hungria</option>
+  <option>Iémen</option>
+  <option>Ilhas Marshall</option>
+  <option>Ilhas Salomão</option>
+  <option>Índia</option>
+  <option>Indonésia</option>
+  <option>Irã</option>
+  <option>Iraque</option>
+  <option>Irlanda</option>
+  <option>Islândia</option>
+  <option>Israel</option>
+  <option>Itália</option>
+  <option>Jamaica</option>
+  <option>Japão</option>
+  <option>Jordânia</option>
+  <option>Kiribati</option>
+  <option>Kuwait</option>
+  <option>Laos</option>
+  <option>Lesoto</option>
+  <option>Letônia</option>
+  <option>Líbano</option>
+  <option>Libéria</option>
+  <option>Líbia</option>
+  <option>Liechtenstein</option>
+  <option>Lituânia</option>
+  <option>Luxemburgo</option>
+  <option>Macedônia do Norte</option>
+  <option>Madagáscar</option>
+  <option>Malásia</option>
+  <option>Malawi</option>
+  <option>Maldivas</option>
+  <option>Mali</option>
+  <option>Malta</option>
+  <option>Marrocos</option>
+  <option>Maurícia</option>
+  <option>Mauritânia</option>
+  <option>México</option>
+  <option>Micronésia</option>
+  <option>Moçambique</option>
+  <option>Moldávia</option>
+  <option>Mônaco</option>
+  <option>Mongólia</option>
+  <option>Montenegro</option>
+  <option>Myanmar</option>
+  <option>Namíbia</option>
+  <option>Nauru</option>
+  <option>Nepal</option>
+  <option>Nicaraguá</option>
+  <option>Níger</option>
+  <option>Nigéria</option>
+  <option>Noruega</option>
+  <option>Nova Zelândia</option>
+  <option>Omã</option>
+  <option>Palau</option>
+  <option>Panamá</option>
+  <option>Papua-Nova Guiné</option>
+  <option>Paquistão</option>
+  <option>Paraguai</option>
+  <option>Peru</option>
+  <option>Polônia</option>
+  <option>Portugal</option>
+  <option>Quênia</option>
+  <option>Quirguistão</option>
+  <option>Reino Unido</option>
+  <option>República Centro-Africana</option>
+  <option>República Checa</option>
+  <option>República Democrática do Congo</option>
+  <option>República Dominicana</option>
+  <option>Romênia</option>
+  <option>Ruanda</option>
+  <option>Rússia</option>
+  <option>São Cristóvão e Névis</option>
+  <option>São Marino</option>
+  <option>São Tomé e Príncipe</option>
+  <option>São Vicente e Granadinas</option>
+  <option>Seicheles</option>
+  <option>Senegal</option>
+  <option>Sérvia</option>
+  <option>Singapura</option>
+  <option>Síria</option>
+  <option>Somália</option>
+  <option>Sri Lanka</option>
+  <option>Sudão</option>
+  <option>Sudão do Sul</option>
+  <option>Suécia</option>
+  <option>Suíça</option>
+  <option>Suriname</option>
+  <option>Tailândia</option>
+  <option>Tajiquistão</option>
+  <option>Tanzânia</option>
+  <option>Timor-Leste</option>
+  <option>Togo</option>
+  <option>Tonga</option>
+  <option>Trinidad e Tobago</option>
+  <option>Tunísia</option>
+  <option>Turcomenistão</option>
+  <option>Turquia</option>
+  <option>Tuvalu</option>
+  <option>Ucrânia</option>
+  <option>Uganda</option>
+  <option>Uruguai</option>
+  <option>Uzbequistão</option>
+  <option>Vanuatu</option>
+  <option>Vaticano</option>
+  <option>Venezuela</option>
+  <option>Vietnã</option>
+  <option>Zâmbia</option>
+  <option>Zimbábue</option>
+        </select><br>
+      UF:
+      <select name="uf_res">
+        <option>PR</option>
+        <option>SP</option>
+        <option>RJ</option>
+      </select><br>
+      CEP: <input type="text" name="cep_res"><br>
+      Cidade: <input type="text" name="cidade_res"><br>
+      Bairro: <input type="text" name="bairro_res"><br>
+      Caixa Postal: <input type="text" name="caixa_postal_res"><br>
+      DDD: <input type="text" name="ddd_res"><br>
+      Telefone: <input type="text" name="tel_res"><br>
+      Fax: <input type="text" name="fax_res"><br>
+      E-mail: <input type="email" name="email_res"><br>
+      Homepage pessoal: <input type="url" name="homepage_res">
+    </fieldset>
+
+    <fieldset>
+      <legend>Endereço Preferencial para Correspondência</legend>
+      <input type="radio" name="correspondencia" value="residencial"> Residencial<br>
+      <input type="radio" name="correspondencia" value="profissional"> Profissional
+    </fieldset>
+
+    <fieldset>
+      <legend>Formação Acadêmica/Titulação</legend>
+      Nível:<br>
+      <input type="radio" name="nivel" value="graduacao"> Graduação<br>
+      <input type="radio" name="nivel" value="aperfeicoamento"> Aperfeiçoamento<br>
+      <input type="radio" name="nivel" value="especializacao"> Especialização<br>
+      <input type="radio" name="nivel" value="mestrado"> Mestrado<br>
+      <input type="radio" name="nivel" value="doutorado"> Doutorado<br>
+      Carga Horária: <input type="text" name="carga_horaria"><br>
+      Instituição: <input type="text" name="instituicao_form"><br>
+      Nome do Curso: <input type="text" name="curso"><br>
+      Status:<br>
+      <input type="radio" name="status_curso" value="andamento"> Em andamento<br>
+      <input type="radio" name="status_curso" value="titulo"> Com título obtido<br>
+      Início: <input type="text" name="inicio"><br>
+      Conclusão: <input type="text" name="conclusao"><br>
+      Obtenção do título: <input type="text" name="obtencao"><br>
+      Título da Monografia/Dissertação/Tese: <input type="text" name="titulo_tese"><br>
+      Nome do Orientador: <input type="text" name="orientador"><br>
+      Bolsa:<br>
+      <input type="radio" name="bolsa" value="sim"> Sim<br>
+      <input type="radio" name="bolsa" value="nao"> Não<br>
+      Entidade Financeira: <input type="text" name="entidade">
+    </fieldset>
+    
+    <fieldset>
+      <legend>Atuação Profissional</legend>
+      Instituição/Empresa: <input type="text" name="instituicao_trabalho"><br>
+      Sigla: <input type="text" name="sigla"><br>
+      Atividades:<br>
+      <input type="checkbox" name="atividade" value="conselhos"> Conselhos<br>
+      <input type="checkbox" name="atividade" value="direcao"> Direção e administração<br>
+      <input type="checkbox" name="atividade" value="ensino"> Ensino<br>
+      <input type="checkbox" name="atividade" value="estagio"> Estágio<br>
+      <input type="checkbox" name="atividade" value="extensao"> Extensão universitária<br>
+      <input type="checkbox" name="atividade" value="pesquisa"> Pesquisa e desenvolvimento<br>
+      <input type="checkbox" name="atividade" value="servicos"> Serviços técnicos<br>
+      <input type="checkbox" name="atividade" value="treinamentos"> Treinamentos<br>
+      <input type="checkbox" name="atividade" value="outras"> Outras atividades<br>
+      Período:<br>
+      <input type="radio" name="periodo" value="anterior"> Anterior<br>
+      <input type="radio" name="periodo" value="atual"> Atual<br>
+      Início: Mês <input type="text" name="mes_inicio"> Ano <input type="text" name="ano_inicio"><br>
+      Fim: Mês <input type="text" name="mes_fim"> Ano <input type="text" name="ano_fim"><br>
+      Tipo de Vínculo:
+      <select name="tipo_vinculo">
+        <option>Servidor Público</option>
+        <option>Celetista</option>
+        <option>Outro</option>
+      </select><br>
+      Carga Horária Semanal: <input type="text" name="carga_horaria_semanal">
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+  </form>
+</body>
+</html>
